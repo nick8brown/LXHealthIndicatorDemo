@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D1122421A64F3E001EEFF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1122321A64F3E001EEFF1 /* AppDelegate.m */; };
+		24D1122A21A64F3E001EEFF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D1122821A64F3E001EEFF1 /* Main.storyboard */; };
+		24D1122C21A64F40001EEFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1122B21A64F40001EEFF1 /* Assets.xcassets */; };
+		24D1122F21A64F40001EEFF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D1122D21A64F40001EEFF1 /* LaunchScreen.storyboard */; };
+		24D1123221A64F40001EEFF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1123121A64F40001EEFF1 /* main.m */; };
+		24D1123C21A64F40001EEFF1 /* LXHealthIndicatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1123B21A64F40001EEFF1 /* LXHealthIndicatorDemoTests.m */; };
+		24D1124721A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1124621A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.m */; };
+		24D1128621A6583B001EEFF1 /* SSWMutipleLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1127721A6583B001EEFF1 /* SSWMutipleLineChart.m */; };
+		24D1128721A6583B001EEFF1 /* SSWCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1127921A6583B001EEFF1 /* SSWCharts.m */; };
+		24D1128821A6583B001EEFF1 /* SSWLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1127B21A6583B001EEFF1 /* SSWLineChartView.m */; };
+		24D1128921A6583B001EEFF1 /* SSWPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1127C21A6583B001EEFF1 /* SSWPieChartView.m */; };
+		24D1128A21A6583B001EEFF1 /* SSWBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1127F21A6583B001EEFF1 /* SSWBarChartView.m */; };
+		24D1128B21A6583B001EEFF1 /* SSWMutipleBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1128121A6583B001EEFF1 /* SSWMutipleBarChartView.m */; };
+		24D1128C21A6583B001EEFF1 /* ruler.gif in Resources */ = {isa = PBXBuildFile; fileRef = 24D1128421A6583B001EEFF1 /* ruler.gif */; };
+		24D1128D21A6583B001EEFF1 /* DYScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1128521A6583B001EEFF1 /* DYScrollRulerView.m */; };
+		24D1129121A658EA001EEFF1 /* UIColor+LX.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1129021A658EA001EEFF1 /* UIColor+LX.m */; };
+		24D1129921A65C2D001EEFF1 /* NSString+LX.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1129821A65C2D001EEFF1 /* NSString+LX.m */; };
+		24D1129C21A6802C001EEFF1 /* UIImage+LX.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1129A21A6802C001EEFF1 /* UIImage+LX.m */; };
+		24D112C121A6943D001EEFF1 /* LXIndicatorTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112A921A6943D001EEFF1 /* LXIndicatorTypeViewController.m */; };
+		24D112C221A6943D001EEFF1 /* LXIndicatorTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D112AC21A6943D001EEFF1 /* LXIndicatorTypeViewController.xib */; };
+		24D112C321A6943D001EEFF1 /* LXHealthIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112AD21A6943D001EEFF1 /* LXHealthIndicatorViewController.m */; };
+		24D112C421A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112B021A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.m */; };
+		24D112C521A6943D001EEFF1 /* LXBloodSugarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D112B121A6943D001EEFF1 /* LXBloodSugarView.xib */; };
+		24D112C621A6943D001EEFF1 /* LXBloodSugarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112B221A6943D001EEFF1 /* LXBloodSugarView.m */; };
+		24D112C721A6943D001EEFF1 /* LXHealthIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D112B421A6943D001EEFF1 /* LXHealthIndicatorView.xib */; };
+		24D112C821A6943D001EEFF1 /* LXHealthIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112B521A6943D001EEFF1 /* LXHealthIndicatorView.m */; };
+		24D112C921A6943D001EEFF1 /* LXBloodPressureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D112B821A6943D001EEFF1 /* LXBloodPressureView.xib */; };
+		24D112CA21A6943D001EEFF1 /* LXBloodPressureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112B921A6943D001EEFF1 /* LXBloodPressureView.m */; };
+		24D112CB21A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D112BA21A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.xib */; };
+		24D112CC21A6943D001EEFF1 /* LXHealthIndicatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112BD21A6943D001EEFF1 /* LXHealthIndicatorItem.m */; };
+		24D112CD21A6943D001EEFF1 /* LXHealthIndicatorViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D112BF21A6943D001EEFF1 /* LXHealthIndicatorViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D1123821A64F40001EEFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D1121721A64F3E001EEFF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D1121E21A64F3E001EEFF1;
+			remoteInfo = LXHealthIndicatorDemo;
+		};
+		24D1124321A64F40001EEFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D1121721A64F3E001EEFF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D1121E21A64F3E001EEFF1;
+			remoteInfo = LXHealthIndicatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24D1121F21A64F3E001EEFF1 /* LXHealthIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXHealthIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1122221A64F3E001EEFF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24D1122321A64F3E001EEFF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24D1122921A64F3E001EEFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24D1122B21A64F40001EEFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D1122E21A64F40001EEFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24D1123021A64F40001EEFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D1123121A64F40001EEFF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24D1123721A64F40001EEFF1 /* LXHealthIndicatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXHealthIndicatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1123B21A64F40001EEFF1 /* LXHealthIndicatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHealthIndicatorDemoTests.m; sourceTree = "<group>"; };
+		24D1123D21A64F40001EEFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D1124221A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXHealthIndicatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1124621A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHealthIndicatorDemoUITests.m; sourceTree = "<group>"; };
+		24D1124821A64F40001EEFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D1127621A6583B001EEFF1 /* SSWPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWPieChartView.h; sourceTree = "<group>"; };
+		24D1127721A6583B001EEFF1 /* SSWMutipleLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWMutipleLineChart.m; sourceTree = "<group>"; };
+		24D1127821A6583B001EEFF1 /* SSWBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWBarChartView.h; sourceTree = "<group>"; };
+		24D1127921A6583B001EEFF1 /* SSWCharts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWCharts.m; sourceTree = "<group>"; };
+		24D1127A21A6583B001EEFF1 /* SSWMutipleBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWMutipleBarChartView.h; sourceTree = "<group>"; };
+		24D1127B21A6583B001EEFF1 /* SSWLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWLineChartView.m; sourceTree = "<group>"; };
+		24D1127C21A6583B001EEFF1 /* SSWPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWPieChartView.m; sourceTree = "<group>"; };
+		24D1127D21A6583B001EEFF1 /* SSWMutipleLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWMutipleLineChart.h; sourceTree = "<group>"; };
+		24D1127E21A6583B001EEFF1 /* SSWCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWCharts.h; sourceTree = "<group>"; };
+		24D1127F21A6583B001EEFF1 /* SSWBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWBarChartView.m; sourceTree = "<group>"; };
+		24D1128021A6583B001EEFF1 /* SSWLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWLineChartView.h; sourceTree = "<group>"; };
+		24D1128121A6583B001EEFF1 /* SSWMutipleBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWMutipleBarChartView.m; sourceTree = "<group>"; };
+		24D1128321A6583B001EEFF1 /* DYScrollRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYScrollRulerView.h; sourceTree = "<group>"; };
+		24D1128421A6583B001EEFF1 /* ruler.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruler.gif; sourceTree = "<group>"; };
+		24D1128521A6583B001EEFF1 /* DYScrollRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYScrollRulerView.m; sourceTree = "<group>"; };
+		24D1128F21A658EA001EEFF1 /* UIColor+LX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LX.h"; sourceTree = "<group>"; };
+		24D1129021A658EA001EEFF1 /* UIColor+LX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LX.m"; sourceTree = "<group>"; };
+		24D1129721A65C2C001EEFF1 /* NSString+LX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LX.h"; sourceTree = "<group>"; };
+		24D1129821A65C2D001EEFF1 /* NSString+LX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LX.m"; sourceTree = "<group>"; };
+		24D1129A21A6802C001EEFF1 /* UIImage+LX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LX.m"; sourceTree = "<group>"; };
+		24D1129B21A6802C001EEFF1 /* UIImage+LX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LX.h"; sourceTree = "<group>"; };
+		24D112A621A680BA001EEFF1 /* LX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LX_Prefix.pch; sourceTree = "<group>"; };
+		24D112A921A6943D001EEFF1 /* LXIndicatorTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXIndicatorTypeViewController.m; sourceTree = "<group>"; };
+		24D112AA21A6943D001EEFF1 /* LXHealthIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHealthIndicatorViewController.h; sourceTree = "<group>"; };
+		24D112AB21A6943D001EEFF1 /* LXIndicatorTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXIndicatorTypeViewController.h; sourceTree = "<group>"; };
+		24D112AC21A6943D001EEFF1 /* LXIndicatorTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXIndicatorTypeViewController.xib; sourceTree = "<group>"; };
+		24D112AD21A6943D001EEFF1 /* LXHealthIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHealthIndicatorViewController.m; sourceTree = "<group>"; };
+		24D112AF21A6943D001EEFF1 /* LXHealthIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHealthIndicatorView.h; sourceTree = "<group>"; };
+		24D112B021A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHealthIndicatorTableViewCell.m; sourceTree = "<group>"; };
+		24D112B121A6943D001EEFF1 /* LXBloodSugarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXBloodSugarView.xib; sourceTree = "<group>"; };
+		24D112B221A6943D001EEFF1 /* LXBloodSugarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBloodSugarView.m; sourceTree = "<group>"; };
+		24D112B321A6943D001EEFF1 /* LXBloodPressureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBloodPressureView.h; sourceTree = "<group>"; };
+		24D112B421A6943D001EEFF1 /* LXHealthIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHealthIndicatorView.xib; sourceTree = "<group>"; };
+		24D112B521A6943D001EEFF1 /* LXHealthIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHealthIndicatorView.m; sourceTree = "<group>"; };
+		24D112B621A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHealthIndicatorTableViewCell.h; sourceTree = "<group>"; };
+		24D112B721A6943D001EEFF1 /* LXBloodSugarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBloodSugarView.h; sourceTree = "<group>"; };
+		24D112B821A6943D001EEFF1 /* LXBloodPressureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXBloodPressureView.xib; sourceTree = "<group>"; };
+		24D112B921A6943D001EEFF1 /* LXBloodPressureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBloodPressureView.m; sourceTree = "<group>"; };
+		24D112BA21A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHealthIndicatorTableViewCell.xib; sourceTree = "<group>"; };
+		24D112BC21A6943D001EEFF1 /* LXHealthIndicatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHealthIndicatorItem.h; sourceTree = "<group>"; };
+		24D112BD21A6943D001EEFF1 /* LXHealthIndicatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHealthIndicatorItem.m; sourceTree = "<group>"; };
+		24D112BF21A6943D001EEFF1 /* LXHealthIndicatorViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHealthIndicatorViewModel.m; sourceTree = "<group>"; };
+		24D112C021A6943D001EEFF1 /* LXHealthIndicatorViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHealthIndicatorViewModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D1121C21A64F3E001EEFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1123421A64F40001EEFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1123F21A64F40001EEFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D1121621A64F3E001EEFF1 = {
+			isa = PBXGroup;
+			children = (
+				24D1122121A64F3E001EEFF1 /* LXHealthIndicatorDemo */,
+				24D1123A21A64F40001EEFF1 /* LXHealthIndicatorDemoTests */,
+				24D1124521A64F40001EEFF1 /* LXHealthIndicatorDemoUITests */,
+				24D1122021A64F3E001EEFF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D1122021A64F3E001EEFF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D1121F21A64F3E001EEFF1 /* LXHealthIndicatorDemo.app */,
+				24D1123721A64F40001EEFF1 /* LXHealthIndicatorDemoTests.xctest */,
+				24D1124221A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D1122121A64F3E001EEFF1 /* LXHealthIndicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				24D112A621A680BA001EEFF1 /* LX_Prefix.pch */,
+				24D1127421A6582F001EEFF1 /* Lib */,
+				24D1128E21A658E0001EEFF1 /* Category */,
+				24D1125421A64FB3001EEFF1 /* LXHealthIndicator */,
+				24D1122221A64F3E001EEFF1 /* AppDelegate.h */,
+				24D1122321A64F3E001EEFF1 /* AppDelegate.m */,
+				24D1122821A64F3E001EEFF1 /* Main.storyboard */,
+				24D1122B21A64F40001EEFF1 /* Assets.xcassets */,
+				24D1122D21A64F40001EEFF1 /* LaunchScreen.storyboard */,
+				24D1123021A64F40001EEFF1 /* Info.plist */,
+				24D1123121A64F40001EEFF1 /* main.m */,
+			);
+			path = LXHealthIndicatorDemo;
+			sourceTree = "<group>";
+		};
+		24D1123A21A64F40001EEFF1 /* LXHealthIndicatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				24D1123B21A64F40001EEFF1 /* LXHealthIndicatorDemoTests.m */,
+				24D1123D21A64F40001EEFF1 /* Info.plist */,
+			);
+			path = LXHealthIndicatorDemoTests;
+			sourceTree = "<group>";
+		};
+		24D1124521A64F40001EEFF1 /* LXHealthIndicatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24D1124621A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.m */,
+				24D1124821A64F40001EEFF1 /* Info.plist */,
+			);
+			path = LXHealthIndicatorDemoUITests;
+			sourceTree = "<group>";
+		};
+		24D1125421A64FB3001EEFF1 /* LXHealthIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				24D112BB21A6943D001EEFF1 /* Model */,
+				24D112BE21A6943D001EEFF1 /* ViewModel */,
+				24D112A721A6943D001EEFF1 /* View */,
+			);
+			path = LXHealthIndicator;
+			sourceTree = "<group>";
+		};
+		24D1127421A6582F001EEFF1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				24D1127521A6583B001EEFF1 /* Chart */,
+				24D1128221A6583B001EEFF1 /* DYScorllRuler */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		24D1127521A6583B001EEFF1 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				24D1127621A6583B001EEFF1 /* SSWPieChartView.h */,
+				24D1127721A6583B001EEFF1 /* SSWMutipleLineChart.m */,
+				24D1127821A6583B001EEFF1 /* SSWBarChartView.h */,
+				24D1127921A6583B001EEFF1 /* SSWCharts.m */,
+				24D1127A21A6583B001EEFF1 /* SSWMutipleBarChartView.h */,
+				24D1127B21A6583B001EEFF1 /* SSWLineChartView.m */,
+				24D1127C21A6583B001EEFF1 /* SSWPieChartView.m */,
+				24D1127D21A6583B001EEFF1 /* SSWMutipleLineChart.h */,
+				24D1127E21A6583B001EEFF1 /* SSWCharts.h */,
+				24D1127F21A6583B001EEFF1 /* SSWBarChartView.m */,
+				24D1128021A6583B001EEFF1 /* SSWLineChartView.h */,
+				24D1128121A6583B001EEFF1 /* SSWMutipleBarChartView.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		24D1128221A6583B001EEFF1 /* DYScorllRuler */ = {
+			isa = PBXGroup;
+			children = (
+				24D1128321A6583B001EEFF1 /* DYScrollRulerView.h */,
+				24D1128421A6583B001EEFF1 /* ruler.gif */,
+				24D1128521A6583B001EEFF1 /* DYScrollRulerView.m */,
+			);
+			path = DYScorllRuler;
+			sourceTree = "<group>";
+		};
+		24D1128E21A658E0001EEFF1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				24D1129721A65C2C001EEFF1 /* NSString+LX.h */,
+				24D1129821A65C2D001EEFF1 /* NSString+LX.m */,
+				24D1128F21A658EA001EEFF1 /* UIColor+LX.h */,
+				24D1129021A658EA001EEFF1 /* UIColor+LX.m */,
+				24D1129B21A6802C001EEFF1 /* UIImage+LX.h */,
+				24D1129A21A6802C001EEFF1 /* UIImage+LX.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		24D112A721A6943D001EEFF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24D112AE21A6943D001EEFF1 /* View */,
+				24D112A821A6943D001EEFF1 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24D112A821A6943D001EEFF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24D112AA21A6943D001EEFF1 /* LXHealthIndicatorViewController.h */,
+				24D112AD21A6943D001EEFF1 /* LXHealthIndicatorViewController.m */,
+				24D112AB21A6943D001EEFF1 /* LXIndicatorTypeViewController.h */,
+				24D112A921A6943D001EEFF1 /* LXIndicatorTypeViewController.m */,
+				24D112AC21A6943D001EEFF1 /* LXIndicatorTypeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24D112AE21A6943D001EEFF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24D112AF21A6943D001EEFF1 /* LXHealthIndicatorView.h */,
+				24D112B521A6943D001EEFF1 /* LXHealthIndicatorView.m */,
+				24D112B421A6943D001EEFF1 /* LXHealthIndicatorView.xib */,
+				24D112B321A6943D001EEFF1 /* LXBloodPressureView.h */,
+				24D112B921A6943D001EEFF1 /* LXBloodPressureView.m */,
+				24D112B821A6943D001EEFF1 /* LXBloodPressureView.xib */,
+				24D112B721A6943D001EEFF1 /* LXBloodSugarView.h */,
+				24D112B221A6943D001EEFF1 /* LXBloodSugarView.m */,
+				24D112B121A6943D001EEFF1 /* LXBloodSugarView.xib */,
+				24D112B621A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.h */,
+				24D112B021A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.m */,
+				24D112BA21A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24D112BB21A6943D001EEFF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24D112BC21A6943D001EEFF1 /* LXHealthIndicatorItem.h */,
+				24D112BD21A6943D001EEFF1 /* LXHealthIndicatorItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24D112BE21A6943D001EEFF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24D112C021A6943D001EEFF1 /* LXHealthIndicatorViewModel.h */,
+				24D112BF21A6943D001EEFF1 /* LXHealthIndicatorViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D1121E21A64F3E001EEFF1 /* LXHealthIndicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D1124B21A64F41001EEFF1 /* Build configuration list for PBXNativeTarget "LXHealthIndicatorDemo" */;
+			buildPhases = (
+				24D1121B21A64F3E001EEFF1 /* Sources */,
+				24D1121C21A64F3E001EEFF1 /* Frameworks */,
+				24D1121D21A64F3E001EEFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXHealthIndicatorDemo;
+			productName = LXHealthIndicatorDemo;
+			productReference = 24D1121F21A64F3E001EEFF1 /* LXHealthIndicatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D1123621A64F40001EEFF1 /* LXHealthIndicatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D1124E21A64F41001EEFF1 /* Build configuration list for PBXNativeTarget "LXHealthIndicatorDemoTests" */;
+			buildPhases = (
+				24D1123321A64F40001EEFF1 /* Sources */,
+				24D1123421A64F40001EEFF1 /* Frameworks */,
+				24D1123521A64F40001EEFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D1123921A64F40001EEFF1 /* PBXTargetDependency */,
+			);
+			name = LXHealthIndicatorDemoTests;
+			productName = LXHealthIndicatorDemoTests;
+			productReference = 24D1123721A64F40001EEFF1 /* LXHealthIndicatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24D1124121A64F40001EEFF1 /* LXHealthIndicatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D1125121A64F41001EEFF1 /* Build configuration list for PBXNativeTarget "LXHealthIndicatorDemoUITests" */;
+			buildPhases = (
+				24D1123E21A64F40001EEFF1 /* Sources */,
+				24D1123F21A64F40001EEFF1 /* Frameworks */,
+				24D1124021A64F40001EEFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D1124421A64F40001EEFF1 /* PBXTargetDependency */,
+			);
+			name = LXHealthIndicatorDemoUITests;
+			productName = LXHealthIndicatorDemoUITests;
+			productReference = 24D1124221A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D1121721A64F3E001EEFF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = zenglx;
+				TargetAttributes = {
+					24D1121E21A64F3E001EEFF1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					24D1123621A64F40001EEFF1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 24D1121E21A64F3E001EEFF1;
+					};
+					24D1124121A64F40001EEFF1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 24D1121E21A64F3E001EEFF1;
+					};
+				};
+			};
+			buildConfigurationList = 24D1121A21A64F3E001EEFF1 /* Build configuration list for PBXProject "LXHealthIndicatorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D1121621A64F3E001EEFF1;
+			productRefGroup = 24D1122021A64F3E001EEFF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D1121E21A64F3E001EEFF1 /* LXHealthIndicatorDemo */,
+				24D1123621A64F40001EEFF1 /* LXHealthIndicatorDemoTests */,
+				24D1124121A64F40001EEFF1 /* LXHealthIndicatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D1121D21A64F3E001EEFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D112C921A6943D001EEFF1 /* LXBloodPressureView.xib in Resources */,
+				24D112C521A6943D001EEFF1 /* LXBloodSugarView.xib in Resources */,
+				24D1122F21A64F40001EEFF1 /* LaunchScreen.storyboard in Resources */,
+				24D112C721A6943D001EEFF1 /* LXHealthIndicatorView.xib in Resources */,
+				24D112C221A6943D001EEFF1 /* LXIndicatorTypeViewController.xib in Resources */,
+				24D1122C21A64F40001EEFF1 /* Assets.xcassets in Resources */,
+				24D1122A21A64F3E001EEFF1 /* Main.storyboard in Resources */,
+				24D112CB21A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.xib in Resources */,
+				24D1128C21A6583B001EEFF1 /* ruler.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1123521A64F40001EEFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1124021A64F40001EEFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D1121B21A64F3E001EEFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1129121A658EA001EEFF1 /* UIColor+LX.m in Sources */,
+				24D1128921A6583B001EEFF1 /* SSWPieChartView.m in Sources */,
+				24D1128B21A6583B001EEFF1 /* SSWMutipleBarChartView.m in Sources */,
+				24D112C421A6943D001EEFF1 /* LXHealthIndicatorTableViewCell.m in Sources */,
+				24D1128721A6583B001EEFF1 /* SSWCharts.m in Sources */,
+				24D1123221A64F40001EEFF1 /* main.m in Sources */,
+				24D112C121A6943D001EEFF1 /* LXIndicatorTypeViewController.m in Sources */,
+				24D1128621A6583B001EEFF1 /* SSWMutipleLineChart.m in Sources */,
+				24D1129C21A6802C001EEFF1 /* UIImage+LX.m in Sources */,
+				24D112CC21A6943D001EEFF1 /* LXHealthIndicatorItem.m in Sources */,
+				24D1128A21A6583B001EEFF1 /* SSWBarChartView.m in Sources */,
+				24D1129921A65C2D001EEFF1 /* NSString+LX.m in Sources */,
+				24D1122421A64F3E001EEFF1 /* AppDelegate.m in Sources */,
+				24D1128821A6583B001EEFF1 /* SSWLineChartView.m in Sources */,
+				24D112CD21A6943D001EEFF1 /* LXHealthIndicatorViewModel.m in Sources */,
+				24D112C821A6943D001EEFF1 /* LXHealthIndicatorView.m in Sources */,
+				24D112C321A6943D001EEFF1 /* LXHealthIndicatorViewController.m in Sources */,
+				24D112C621A6943D001EEFF1 /* LXBloodSugarView.m in Sources */,
+				24D112CA21A6943D001EEFF1 /* LXBloodPressureView.m in Sources */,
+				24D1128D21A6583B001EEFF1 /* DYScrollRulerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1123321A64F40001EEFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1123C21A64F40001EEFF1 /* LXHealthIndicatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1123E21A64F40001EEFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1124721A64F40001EEFF1 /* LXHealthIndicatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D1123921A64F40001EEFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D1121E21A64F3E001EEFF1 /* LXHealthIndicatorDemo */;
+			targetProxy = 24D1123821A64F40001EEFF1 /* PBXContainerItemProxy */;
+		};
+		24D1124421A64F40001EEFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D1121E21A64F3E001EEFF1 /* LXHealthIndicatorDemo */;
+			targetProxy = 24D1124321A64F40001EEFF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24D1122821A64F3E001EEFF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D1122921A64F3E001EEFF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24D1122D21A64F40001EEFF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D1122E21A64F40001EEFF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D1124921A64F41001EEFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24D1124A21A64F41001EEFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D1124C21A64F41001EEFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/LX_Prefix.pch";
+				INFOPLIST_FILE = LXHealthIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXHealthIndicatorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D1124D21A64F41001EEFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/LX_Prefix.pch";
+				INFOPLIST_FILE = LXHealthIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXHealthIndicatorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24D1124F21A64F41001EEFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXHealthIndicatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXHealthIndicatorDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXHealthIndicatorDemo.app/LXHealthIndicatorDemo";
+			};
+			name = Debug;
+		};
+		24D1125021A64F41001EEFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXHealthIndicatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXHealthIndicatorDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXHealthIndicatorDemo.app/LXHealthIndicatorDemo";
+			};
+			name = Release;
+		};
+		24D1125221A64F41001EEFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXHealthIndicatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXHealthIndicatorDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXHealthIndicatorDemo;
+			};
+			name = Debug;
+		};
+		24D1125321A64F41001EEFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXHealthIndicatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXHealthIndicatorDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXHealthIndicatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D1121A21A64F3E001EEFF1 /* Build configuration list for PBXProject "LXHealthIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1124921A64F41001EEFF1 /* Debug */,
+				24D1124A21A64F41001EEFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D1124B21A64F41001EEFF1 /* Build configuration list for PBXNativeTarget "LXHealthIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1124C21A64F41001EEFF1 /* Debug */,
+				24D1124D21A64F41001EEFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D1124E21A64F41001EEFF1 /* Build configuration list for PBXNativeTarget "LXHealthIndicatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1124F21A64F41001EEFF1 /* Debug */,
+				24D1125021A64F41001EEFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D1125121A64F41001EEFF1 /* Build configuration list for PBXNativeTarget "LXHealthIndicatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1125221A64F41001EEFF1 /* Debug */,
+				24D1125321A64F41001EEFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D1121721A64F3E001EEFF1 /* Project object */;
+}
